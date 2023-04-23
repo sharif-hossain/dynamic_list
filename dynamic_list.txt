@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Display unordered List of Items: </h2>
+
+<ul>
+
+<script>
+
+let num = prompt("How many Items you want to create? ");
+
+
+for (let i = 1; i <= num; i++) {
+
+ document.write(`<li> Item ${i} </li>`)
+ 
+}
+
+</script>
+
+</ul>
+
+</body>
+</html>
